@@ -163,7 +163,6 @@ class Firework {
   constructor(x, y) {
     this.particles = [];
     let particleCount = floor(random(80, 120));
-
     colorMode(HSB, 255);
     let c = color(
       random(0, 255), // 色相
